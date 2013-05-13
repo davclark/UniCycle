@@ -157,7 +157,7 @@ function! UniCycleQuote()
 endfunction
 
 function! UniCycleOn()
-	inoremap - -<Esc>:call UniCycleHyphen()<CR>a
+    " inoremap - -<Esc>:call UniCycleHyphen()<CR>a
 	inoremap . .<Esc>:call UniCyclePeriod()<CR>a
 	inoremap ' x<Esc>:call UniCycleApostrophe()<CR>a
 	inoremap " x<Esc>:call UniCycleQuote()<CR>a
